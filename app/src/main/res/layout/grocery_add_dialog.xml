@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="center"
     android:backgroundTint="#FEFBF6"
-    android:background="@drawable/custom_button_back"
+    android:background="@drawable/grocery_cart"
     app:cardCornerRadius="10dp">
 <RelativeLayout
     android:layout_width="match_parent"

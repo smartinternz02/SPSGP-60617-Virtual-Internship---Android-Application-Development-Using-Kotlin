@@ -12,7 +12,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/grocery_cart"
+        android:background="@color/white"
         android:backgroundTint="@color/blue_light"
         android:id="@+id/header"
         >
@@ -33,23 +33,24 @@
     android:layout_height="match_parent"
     android:layout_below="@id/header"
     tools:listitem="@layout/grocery_rev_item">
+    android:groundTint="@drawable/grocery_cart"
 
 </androidx.recyclerview.widget.RecyclerView>
 
-<com.google.android.material.floatingactionbutton.FloatingActionButton
-    android:id="@+id/fabAdd"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentEnd="true"
-    android:layout_alignParentBottom="true"
-    android:layout_marginStart="25dp"
-    android:layout_marginTop="25dp"
-    android:layout_marginEnd="25dp"
-    android:layout_marginBottom="25dp"
-    android:backgroundTint="@color/white"
-    android:elevation="5dp"
-    android:src="@drawable/ic_additem"
-    app:tint="@color/black" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/blue_shade_2"
+        android:elevation="5dp"
+        android:src="@drawable/ic_additem"
+        app:tint="@color/black" />
 
 
 </RelativeLayout>
